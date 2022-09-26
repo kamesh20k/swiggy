@@ -8,11 +8,11 @@ b = 6
 c = 9
 
 # calculate the discriminant
-d = (b**2) - (4*a*c)
+e = (b**2) - (4*a*c)
 
 # find two solutions
-sol1 = (-b-cmath.sqrt(d))/(4*a)
-sol2 = (-b+cmath.sqrt(d))/(4*a)
+sol1 = (-b-cmath.sqrt(e))/(4*a)
+sol2 = (-b+cmath.sqrt(e))/(4*a)
 
 print('The solution are {0} and {1}'.format(sol1,sol2))
 
