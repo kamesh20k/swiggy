@@ -2,7 +2,7 @@ public class QuotientRemainder {
 
   public static void main(String[] args) {
 
-    int dividend = 26, divisor = 6;
+    int dividend = 27, divisor = 6;
 
     int quotient = dividend / divisor;
     int remainder = dividend % divisor;
